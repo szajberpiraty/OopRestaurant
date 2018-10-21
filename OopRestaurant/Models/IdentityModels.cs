@@ -25,6 +25,7 @@ namespace OopRestaurant.Models
         {
         }
 
+
         public DbSet<MenuItem> MenuItems { get; set; }
 
         public static ApplicationDbContext Create()
