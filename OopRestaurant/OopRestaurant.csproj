@@ -213,6 +213,14 @@
     <Compile Include="Migrations\201810211720178_Add MenuItem table.Designer.cs">
       <DependentUpon>201810211720178_Add MenuItem table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810221310546_add MenuItem.Price column.cs" />
+    <Compile Include="Migrations\201810221310546_add MenuItem.Price column.Designer.cs">
+      <DependentUpon>201810221310546_add MenuItem.Price column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810221355298_set MenuItem.Name column to required.cs" />
+    <Compile Include="Migrations\201810221355298_set MenuItem.Name column to required.Designer.cs">
+      <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -305,6 +313,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810211720178_Add MenuItem table.resx">
       <DependentUpon>201810211720178_Add MenuItem table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810221310546_add MenuItem.Price column.resx">
+      <DependentUpon>201810221310546_add MenuItem.Price column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810221355298_set MenuItem.Name column to required.resx">
+      <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
