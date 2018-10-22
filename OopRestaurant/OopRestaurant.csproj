@@ -221,6 +221,10 @@
     <Compile Include="Migrations\201810221355298_set MenuItem.Name column to required.Designer.cs">
       <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810221721047_set MenuItems.Name length max 200.cs" />
+    <Compile Include="Migrations\201810221721047_set MenuItems.Name length max 200.Designer.cs">
+      <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -319,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810221355298_set MenuItem.Name column to required.resx">
       <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810221721047_set MenuItems.Name length max 200.resx">
+      <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
