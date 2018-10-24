@@ -12,7 +12,7 @@ namespace OopRestaurant.Controllers
 {
     public class MenuItemsController : Controller
     {
-        [Authorize]
+        
 
         private ApplicationDbContext db = new ApplicationDbContext();
 
@@ -38,6 +38,7 @@ namespace OopRestaurant.Controllers
         }
 
         // GET: MenuItems/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -48,6 +49,7 @@ namespace OopRestaurant.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Create([Bind(Include = "Id,Name,Description,Price")] MenuItem menuItem)
         {
             if (ModelState.IsValid)
@@ -61,6 +63,7 @@ namespace OopRestaurant.Controllers
         }
 
         // GET: MenuItems/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -80,6 +83,7 @@ namespace OopRestaurant.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Edit([Bind(Include = "Id,Name,Description,Price")] MenuItem menuItem)
         {
             if (ModelState.IsValid)
@@ -92,6 +96,7 @@ namespace OopRestaurant.Controllers
         }
 
         // GET: MenuItems/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -109,6 +114,7 @@ namespace OopRestaurant.Controllers
         // POST: MenuItems/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
             MenuItem menuItem = db.MenuItems.Find(id);
