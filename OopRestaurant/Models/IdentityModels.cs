@@ -32,5 +32,10 @@ namespace OopRestaurant.Models
         {
             return new ApplicationDbContext();
         }
+
+        /// <summary>
+        /// Ezt a kontroller varázsló gyártotta le
+        /// </summary>
+        public System.Data.Entity.DbSet<OopRestaurant.Models.Category> Categories { get; set; }
     }
 }
