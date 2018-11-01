@@ -19,5 +19,7 @@ namespace OopRestaurant.Models
         public string Description { get; set; }
         public int Price { get; set; }
 
+        public Category Category { get; set; }
+
     }
 }

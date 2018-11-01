@@ -226,8 +226,13 @@
     <Compile Include="Migrations\201810221721047_set MenuItems.Name length max 200.Designer.cs">
       <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011026185_Add Category To MenuItem and Category table.cs" />
+    <Compile Include="Migrations\201811011026185_Add Category To MenuItem and Category table.Designer.cs">
+      <DependentUpon>201811011026185_Add Category To MenuItem and Category table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MenuItem.cs" />
@@ -332,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810221721047_set MenuItems.Name length max 200.resx">
       <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011026185_Add Category To MenuItem and Category table.resx">
+      <DependentUpon>201811011026185_Add Category To MenuItem and Category table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
