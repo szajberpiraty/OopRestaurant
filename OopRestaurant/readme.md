@@ -4,4 +4,10 @@
 ---
 # Folytatás Az 3.étlap videótól
 ---
-# Folytatás Az étlap és adatbázis 7 videótól 
+# Folytatás Az étlap és adatbázis 7 videótól
+---
+# Étlap és adatbázis 9 ben vagyok 
+---
+# Étlap és adatbázis 10 következik
+---
+# Étlap és adatbázis 10 - 25.41-től Folytatás

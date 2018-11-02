@@ -28,6 +28,8 @@ namespace OopRestaurant.Models
 
         public DbSet<MenuItem> MenuItems { get; set; }
 
+        public DbSet<Category> Categories { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
@@ -36,6 +38,6 @@ namespace OopRestaurant.Models
         /// <summary>
         /// Ezt a kontroller varázsló gyártotta le
         /// </summary>
-        public System.Data.Entity.DbSet<OopRestaurant.Models.Category> Categories { get; set; }
+      
     }
 }
