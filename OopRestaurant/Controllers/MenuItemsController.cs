@@ -12,7 +12,8 @@ namespace OopRestaurant.Controllers
 {
     public class MenuItemsController : Controller
     {
-        [Authorize]
+
+        
 
         private ApplicationDbContext db = new ApplicationDbContext();
 
