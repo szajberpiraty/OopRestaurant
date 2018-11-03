@@ -21,14 +21,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Menu", "Index", "Menu")</li>
-                    
-                    @if (Request.IsAuthenticated)
-                    {
-                        <li>@Html.ActionLink("MenuItems", "Index", "MenuItems")</li>
-                    }
-                    
-
+                    <li>@Html.ActionLink("Menu", "Index", "MenuItems")</li>
                     @if (Request.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Categories", "Index", "Categories")</li>

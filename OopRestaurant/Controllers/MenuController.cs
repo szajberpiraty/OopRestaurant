@@ -17,7 +17,7 @@ namespace OopRestaurant.Controllers
         // GET: Menu
         public ActionResult Index()
         {
-            var model = db.MenuItems.Include(mi=>mi.Category).ToList();
+            var model = db.MenuItems.Include(mi=>mi.Category).OrderBy(mi=>mi.Category.Name).ToList();
             return View(model);
         }
 
