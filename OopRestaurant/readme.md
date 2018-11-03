@@ -11,3 +11,5 @@
 # Étlap és adatbázis 10 következik
 ---
 # Étlap és adatbázis 10 - 25.41-től Folytatás
+
+Meg kell keresni a hibákat, és javítani
