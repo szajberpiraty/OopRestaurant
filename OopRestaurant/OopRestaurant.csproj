@@ -196,11 +196,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\MenuController.cs" />
-    <Compile Include="Controllers\MenuItemsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,17 +221,8 @@
     <Compile Include="Migrations\201810221355298_set MenuItem.Name column to required.Designer.cs">
       <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810221721047_set MenuItems.Name length max 200.cs" />
-    <Compile Include="Migrations\201810221721047_set MenuItems.Name length max 200.Designer.cs">
-      <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811011026185_Add Category To MenuItem and Category table.cs" />
-    <Compile Include="Migrations\201811011026185_Add Category To MenuItem and Category table.Designer.cs">
-      <DependentUpon>201811011026185_Add Category To MenuItem and Category table.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MenuItem.cs" />
@@ -304,18 +292,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\MenuItems\Create.cshtml" />
-    <Content Include="Views\MenuItems\Delete.cshtml" />
-    <Content Include="Views\MenuItems\Details.cshtml" />
-    <Content Include="Views\MenuItems\Edit.cshtml" />
-    <Content Include="Views\MenuItems\Index.cshtml" />
-    <Content Include="Views\Categories\Details.cshtml" />
-    <Content Include="Views\Categories\Index.cshtml" />
-    <Content Include="Views\Menu\Create.cshtml" />
-    <Content Include="Views\Menu\Delete.cshtml" />
-    <Content Include="Views\Menu\Details.cshtml" />
-    <Content Include="Views\Menu\Edit.cshtml" />
-    <Content Include="Views\Menu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -343,12 +319,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810221355298_set MenuItem.Name column to required.resx">
       <DependentUpon>201810221355298_set MenuItem.Name column to required.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810221721047_set MenuItems.Name length max 200.resx">
-      <DependentUpon>201810221721047_set MenuItems.Name length max 200.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811011026185_Add Category To MenuItem and Category table.resx">
-      <DependentUpon>201811011026185_Add Category To MenuItem and Category table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
